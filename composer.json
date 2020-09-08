@@ -1,0 +1,22 @@
+{
+    "name": "heartide/elasticsearch",
+    "type": "library",
+    "license": "MIT",
+    "description": "基于 hyperf/elasticsearch 做出修改的 elasticsearch >= 5.0 Elasticsearch协程客户端组件",
+    "authors": [
+        {
+            "name": "Junduo",
+            "email": "caijunduo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "hyperf/guzzle": "~2.0.0",
+        "elasticsearch/elasticsearch": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heartide\\Elasticsearch\\": "src/"
+        }
+    }
+}
